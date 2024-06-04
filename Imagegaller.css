@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000 ;
+
+}
+.img-gallery{
+    width: 100%;
+    margin: 20px ;
+   }
+
+.img-gallery img{
+    width: 32%;
+    cursor: pointer;
+    
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: aqua;
+    
+}
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(+10deg);
+}
+
